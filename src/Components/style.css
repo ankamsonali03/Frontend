@@ -1,0 +1,175 @@
+/*--------------------------------------------------------------
+# Buttons
+--------------------------------------------------------------*/
+.button{
+    background:cadetblue;
+    padding: 10px 35px;
+    color:black;
+    transition: 0.4s;
+    border-radius: 15px;
+    align-items:center;
+    margin-left: 45%;
+    margin-right:30%;
+    margin-top: 1%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button1{
+  background:rgba(202, 34, 34, 0.767);
+  padding: 10px 35px;
+  color:black;
+  transition: 0.4s;
+  border-radius: 15px;
+  align-items:center;
+  margin-left: 20%;
+  margin-right:20%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button3{
+  background:cadetblue;
+  padding: 10px 35px;
+  color:black;
+  transition: 0.4s;
+  border-radius: 15px;
+  align-items:center;
+  margin-left:20%;
+  margin-right:20%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button1:hover{
+  background:rgb(238, 144, 144);
+  color:black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button:hover{
+    background:rgb(153, 212, 214);
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button3:hover{
+  background:rgb(153, 212, 214);
+  color:black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+table,td,th{
+  border: 2px solid black;
+}
+#tb{
+  width:75%;
+  margin-left: 20%;
+ margin-right:20%;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ border-collapse: collapse;
+}
+
+.add{
+    align-items:center;
+    margin-left: 30%;
+    margin-right:30%;
+    width: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+}
+
+
+
+.form-group1{
+    align-items:center;
+    margin-left: 30%;
+    margin-right:30%;
+    width: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: middle;
+}
+
+
+.margin{
+  margin-top: 40px;
+}
+#h1{
+    align-items:center;
+    margin-left: 30%;
+    margin-right:30%; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*--------------------------------------------------------------
+# SideBar
+--------------------------------------------------------------*/
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #212121;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .sidebar a {
+    display: block;
+    color:white;
+    padding: 16px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+   
+  .sidebar a.active {
+    background-color:cadetblue;
+    
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+ 
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  
+  /*--------------------------------------------------------------
+# Link Buttons
+--------------------------------------------------------------*/
+.link{
+    background:cadetblue;
+    padding: 10px 35px;
+    color:black;
+    transition: 0.4s;
+    border-radius: 15px;
+    align-items:center;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+*font{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
