@@ -77,28 +77,29 @@ function AddTariff() {
             <div>
             <section>
            
-        <div className="container-fluid"class="margin">
+        <div className="container-fluid"class="margin" >
             {
                 submitted && <Redirect to="/fetchall" />           }
         <h2 id="h1">Add Tariff</h2>
+        <form action="" onSubmit={handleSubmit} role="form">
         <div class="form-group" class="add" >
                     <label for="rateperUnit">rateperUnit</label>
-                    <input type="text" name="rateperUnit" class="form-control" value={rateperUnit} onChange={(e) => setRateperUnit(e.target.value)}  placeholder="Enter rateperUnit" id="rateperUnit" />
+                    <input type="text" name="rateperUnit" class="form-control" value={rateperUnit} onChange={(e) => setRateperUnit(e.target.value)}  placeholder="Enter rateperUnit" id="rateperUnit" required/>
                 </div>
 
                 <div class="form-group" class="add">
                     <label for="tariffName">Tariff Name</label>
-                    <select id="TariffName" name="TariffName" value={tariffName} onChange={(e) => setTariffName(e.target.value)} className="form-control" placeholder="Enter Tariff Name " id="TariffName"  >
+                    <select id="TariffName" name="TariffName" value={tariffName} onChange={(e) => setTariffName(e.target.value)} className="form-control" placeholder="Enter Tariff Name " id="TariffName" required >
                     <option value=" Select"> Select </option>
                     <option value=" Domestic"> Domestic </option>
                     <option value=" Industrial"> Industrial  </option>
-                    <option value=" Commerical  Pay"> Commerical </option>
+                    <option value=" Commerical "> Commerical </option>
                 </select>
                 </div>
 
                 <div class="form-group" class="add">
                     <label for="tariffType">Tariff Type</label>
-                    <select id="TariffType" name="TariffType" value={tariffType} onChange={(e) => setTariffType(e.target.value)} className="form-control" placeholder="Enter Tariff Type " id="TariffType"  >
+                    <select id="TariffType" name="TariffType" value={tariffType} onChange={(e) => setTariffType(e.target.value)} className="form-control" placeholder="Enter Tariff Type " id="TariffType" required  >
                     <option value=" Select"> Select </option>
                     <option value=" Urban"> Urban </option>
                     <option value=" Rural"> Rural</option>
@@ -107,13 +108,13 @@ function AddTariff() {
                 
                 <div class="form-group"class="add">Tariff
                     <label for="unitSlab">unitSlab</label>
-                    <input type="text" name="unitSlab" class="form-control" value={unitSlab} onChange={(e)=> setUnitsLab(e.target.value)} placeholder="Enter unitSlab" id="unitSlab" />
+                    <input type="text" name="unitSlab" class="form-control" value={unitSlab} onChange={(e)=> setUnitsLab(e.target.value)} placeholder="Enter unitSlab" id="unitSlab" required/>
                 </div>
                 <div>
-                    <button class="button" value="submit" id="submit"onClick={handleSubmit}>Add</button>
+                    <button type="submit" class="button"  id="submit"onclick={handleSubmit}>Add</button>
                 </div>
                 
-               
+            </form>
             </div>
             </section>
             </div>

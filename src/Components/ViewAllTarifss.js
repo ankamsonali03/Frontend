@@ -66,7 +66,7 @@ class FetchTarrifs extends React.Component {
             <div>
             <div className="table-responsive" class="margin">
                 <table className="table table-bordered" id="tb" style={{border: '2px solid black'
-                }}>
+                }} >
                     <thead>
                         <tr>
                             <th>Tariff Id</th>
